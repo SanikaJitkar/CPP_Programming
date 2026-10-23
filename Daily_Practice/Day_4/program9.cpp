@@ -23,11 +23,12 @@ bool CheckYear(int iYear)
             return false;
         }
     }
+    return false;
 }
 int main()
 {
     int iYear = 0;
-    bool bRet = '\0';
+    bool bRet = false;
 
     cout<<"Enter Year:\n";
     cin>>iYear;
