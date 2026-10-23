@@ -10,7 +10,7 @@ using namespace std;
 //  Author          :   Sanika Sunil Jitkar
 //
 //----------------------------------------------------------------------------------------------------
-void CheckHours(int iHours)
+void CalculateParkingCharge(int iHours)
 {
     int iCharges = 0;
     if(iHours > 0)
@@ -37,6 +37,6 @@ int main()
     cout<<"Enter Parking Hours:\n";
     cin>>iHours;
 
-    CheckHours(iHours);
+    CalculateParkingCharge(iHours);
     return 0;
 }
